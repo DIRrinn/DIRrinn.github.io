@@ -1,1 +1,3 @@
-# DIRrinn.github.io
+# Hello, comrade!
+
+My GitHub: https://github.com/DIRrinn
