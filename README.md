@@ -1,3 +1,1 @@
-# Hello, comrade!
-
-My GitHub: https://github.com/DIRrinn
+This is template GitHub pages for my profile... Okay?
