@@ -9,7 +9,7 @@
         }
         
     	body {
-			background: #fff url(media/mountains.jpg);
+			background: #fff <!-- url(media/mountains.jpg) -->;
 			background-repeat: no-repeat;
 			background-size: cover;
       		color: #000;
@@ -24,14 +24,6 @@
             padding:0; 
     	}
     
-    	header {
-      		width: 100%;
-      		padding: 1rem;
-      		display: flex;
-      		justify-content: space-between;
-      		align-items: center;
-      		position: relative;
-    		}
 
     	.title {
       		position: absolute;
@@ -53,17 +45,19 @@
       		display: flex;
       		gap: 12px;
       		align-items: center;
-      		padding-left: 16px;
-      		padding-right: 16px;
+      		padding-left: 0px;
+      		padding-right: 0px;
       		padding-inline-start: 16px;
       		padding-inline-end: 16px;
-      		padding-top: 12px;
-      		padding-bottom: 12px;
+      		padding-top: 0px;
+      		padding-bottom: 0px;
       		background: #fff;
       		border-radius: 25px;
             border: 1px solid #000;
       		margin: 0 auto;
       		margin-bottom: 2rem;
+            margin-top: 2rem;
+            width: 50rem;
     	}
 
         
@@ -100,11 +94,7 @@
         .icon:hover {
   			transform: scale(1.2);
 		}
-		.page-header{ 
-		    position:fixed;
-		    top:0; 
-		    width:100%; 
-		}
+
 		hr {
     		display: block;
     		height: 1px;
@@ -112,7 +102,7 @@
     		border-top: 3px solid #000;
     		margin: 0;
     		padding: 0;
-			width: 50%;
+			width: 25%;
     		margin-left: auto;
     		margin-right: auto;
 		}
@@ -129,13 +119,12 @@
 		       <h1>Welcome, welcome to my page.</h1>
 		       <h2>You have chosen or been chosen...</h2>
          </center>
-	     <info>
+         <body>
+	     <div class="info">
          <center><img src="media/baldwin.jpg" alt="Avatar" class="image"></center>
          <h1 align="center">DIRrinn</h1>
 		 <hr>
-        </info>
 
-	   <body>
         <div class="socials">
 	        <a href="https://github.com/DIRrinn" target="_blank">
             	<img src="media/github.png" alt="GitHub" class="icon"/>
@@ -149,7 +138,8 @@
 			--><a href="https://t.me/DIRrinn" target="_blank">
             	<img src="media/telegram.png" alt="Telegram" class="icon"/>
             </a>
-		</div>
+        </div>
+        </div>
             <font color="#000"><h2 align="center">DIRrinn, 2025</h2></font>
     </body>
 </html>
